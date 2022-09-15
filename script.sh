@@ -32,8 +32,8 @@ After=network.target
 Enviroment=PORT=%i
 Type=simple
 User=$user
-WorkingDirectory=/home/test/challenge-linux-bash
-ExecStart=/usr/bin/node /home/test/challenge-linux-bash/server.js
+WorkingDirectory=/home/ubuntu/challenge-linux-bash
+ExecStart=/usr/bin/node /home/ubuntu/challenge-linux-bash/server.js
 Restart=on-failure
 
 [Install]
